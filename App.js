@@ -9,6 +9,7 @@ SplashScreen.preventAutoHideAsync();
 export default function App() {
   const [loaded, error] = useFonts({
     'outfit': require('./assets/fonts/Outfit-Regular.ttf'),
+    'outfit-light': require('./assets/fonts/Outfit-Light.ttf'),
     'outfit-med': require('./assets/fonts/Outfit-SemiBold.ttf'),
     'outfit-bold': require('./assets/fonts/Outfit-Bold.ttf'),
   });
