@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "EVChargingFinderApp.app"
-               BlueprintName = "EVChargingFinderApp"
-               ReferencedContainer = "container:EVChargingFinderApp.xcodeproj">
+               BuildableName = "SupaCharger.app"
+               BlueprintName = "SupaCharger"
+               ReferencedContainer = "container:SupaCharger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "EVChargingFinderAppTests.xctest"
-               BlueprintName = "EVChargingFinderAppTests"
-               ReferencedContainer = "container:EVChargingFinderApp.xcodeproj">
+               BuildableName = "SupaChargerTests.xctest"
+               BlueprintName = "SupaChargerTests"
+               ReferencedContainer = "container:SupaCharger.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Supa Charger.app"
-            BlueprintName = "EVChargingFinderApp"
-            ReferencedContainer = "container:EVChargingFinderApp.xcodeproj">
+            BuildableName = "SupaCharger.app"
+            BlueprintName = "SupaCharger"
+            ReferencedContainer = "container:SupaCharger.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "EVChargingFinderApp.app"
-            BlueprintName = "EVChargingFinderApp"
-            ReferencedContainer = "container:EVChargingFinderApp.xcodeproj">
+            BuildableName = "SupaCharger.app"
+            BlueprintName = "SupaCharger"
+            ReferencedContainer = "container:SupaCharger.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

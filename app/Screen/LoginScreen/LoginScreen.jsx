@@ -11,10 +11,10 @@ export default function LoginScreen() {
         marginTop: -20
     }
     }>
-      <Image source={require('/Users/haidermalik/Documents/Code/EV-Charging-Finder-App/assets/images/app-logo.png')}
+      <Image source={require('/Users/haidermalik/Documents/Code/Supa-Charger-App/assets/images/app-logo.png')}
       style={styles.appLogo}
       />
-      <Image source={require('/Users/haidermalik/Documents/Code/EV-Charging-Finder-App/assets/images/ev-charging.png')}
+      <Image source={require('/Users/haidermalik/Documents/Code/Supa-Charger-App/assets/images/ev-charging.png')}
       style={styles.appArt} 
       />
 
