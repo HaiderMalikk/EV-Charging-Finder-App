@@ -16,7 +16,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.MalikApps.Supa-Charge",
       "config": {
-        "googleMapsApiKey": "AIzaSyDAAOa6fJTWNn3caBkxzGdedYrP0YbYPws"
+        "googleMapsApiKey": ""
       }
     },
     "android": {
