@@ -12,15 +12,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-<<<<<<< HEAD:ios/SupaCharge/AppDelegate.mm
 // @generated begin react-native-maps-init - expo prebuild (DO NOT MODIFY) sync-abdd3fb4d2ec951f360ee82cbbe071e4d6844923
 #if __has_include(<GoogleMaps/GoogleMaps.h>)
   [GMSServices provideAPIKey:@"AIzaSyDAAOa6fJTWNn3caBkxzGdedYrP0YbYPws"];
 #endif
 // @generated end react-native-maps-init
-=======
-  [GMSServices provideAPIKey:@""];
->>>>>>> c8c8b98af217e3f9ae38ba8483e2bb337954c7fb:ios/SupaCharger/AppDelegate.mm
   self.moduleName = @"main";
 
   // You can add your custom initial props in the dictionary below.
