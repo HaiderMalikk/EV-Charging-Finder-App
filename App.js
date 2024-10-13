@@ -1,13 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 import { useFonts } from 'expo-font';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import * as SplashScreen from 'expo-splash-screen';
 import LoginScreen from './app/Screen/LoginScreen/LoginScreen';
-import { ClerkProvider, SignedIn, SignedOut } from '@clerk/clerk-expo';
+import { ClerkProvider,ClerkLoaded, SignedIn, SignedOut } from '@clerk/clerk-expo';
 import * as SecureStore from 'expo-secure-store'
 import { NavigationContainer } from '@react-navigation/native';
 import TabNavigation from './app/Navigation/TabNavigation';
+import * as Location from 'expo-location';
+import { UserLocationContext } from './app/Context/UserLocationContext';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -45,6 +47,33 @@ export default function App() {
     'outfit-bold': require('./assets/fonts/Outfit-Bold.ttf'),
   });
 
+  const [location, setLocation] = useState(null);
+  const [errorMsg, setErrorMsg] = useState(null);
+
+  useEffect(() => {
+    (async () => {
+      
+      let { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== 'granted') {
+        setErrorMsg('Permission to access location was denied');
+        return;
+      }
+
+      let location = await Location.getCurrentPositionAsync({});
+      setLocation(location.coords);
+      console.log(location);
+    })();
+  }, []);
+
+  let text = 'Waiting..';
+  if (errorMsg) {
+    text = errorMsg;
+  } else if (location) {
+    text = JSON.stringify(location);
+  }
+
+
+
   useEffect(() => {
     if (loaded || error) {
       SplashScreen.hideAsync();
@@ -57,17 +86,23 @@ export default function App() {
   return (
     <ClerkProvider 
     tokenCache={tokenCache}
-    publishableKey={'pk_test_ZXRoaWNhbC1zY3VscGluLTUuY2xlcmsuYWNjb3VudHMuZGV2JA'}>
-      <View style={styles.container}>
-        <SignedIn>
+    publishableKey={'pk_live_bWFzdGVyLWdvYXQtOTMuY2xlcmsuYWNjb3VudHMuZGV2JA'}
+    >
+      
+      <UserLocationContext.Provider value = {{location, setLocation}}>
+        <View style={styles.container}>
+          <SignedIn>
+            <NavigationContainer>
+              <TabNavigation/>
+            </NavigationContainer>
+          </SignedIn>
+          <SignedOut>
           <NavigationContainer>
-            <TabNavigation/>
-          </NavigationContainer>
-        </SignedIn>
-        <SignedOut>
-          <LoginScreen/>
-        </SignedOut>
-      </View>
+              <TabNavigation/>
+            </NavigationContainer>
+          </SignedOut>
+        </View>
+      </UserLocationContext.Provider>
     </ClerkProvider>
   );
 }
