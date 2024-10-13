@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "Supa Charger",
-    "slug": "Supa Charger",
+    "name": "Supa Charge",
+    "slug": "Supa Charge",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "Supa_Charge",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -13,7 +14,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.MalikApps.Supa-Charger"
+      "bundleIdentifier": "com.MalikApps.Supa-Charge",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDAAOa6fJTWNn3caBkxzGdedYrP0YbYPws"
+      }
     },
     "android": {
       "adaptiveIcon": {
