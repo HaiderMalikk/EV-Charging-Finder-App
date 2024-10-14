@@ -1,2 +1,5 @@
 App made using the black ts template in react native using expo this app is a basic electric cahrger finder for ev's it used clerk for google auth
 it uses google maps and apis to get evs from google.
+
+
+TODO: remove lesser place api from google

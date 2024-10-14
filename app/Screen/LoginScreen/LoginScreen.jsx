@@ -5,11 +5,14 @@ import * as WebBrowser from 'expo-web-browser';
 import {useWarmUpBrowser} from '/Users/haidermalik/Documents/Code/Supa-Charger-App/hooks/warmUpBrowser';
 import { useOAuth } from '@clerk/clerk-expo';
 
-WebBrowser.maybeCompleteAuthSession();
+WebBrowser.maybeCompleteAuthSession(); // letteing know that browser maybe will complete auth
+// login screen at the start of app login using cleark for expo with google auth
+// NOTE the user data for login is rememberd using token
 export default function LoginScreen() {
-    useWarmUpBrowser();
+    useWarmUpBrowser(); // use warm up browser hook
 
-    const { startOAuthFlow } = useOAuth({ strategy: 'oauth_google' })
+    const { startOAuthFlow } = useOAuth({ strategy: 'oauth_google' }) // using google oauth
+    // this is the onpress made for the login button
     const onPress =async () => {
         try {
             const { createdSessionId, signIn, signUp, setActive } = await startOAuthFlow()
@@ -39,8 +42,9 @@ export default function LoginScreen() {
       />
 
       <View style={{padding:10}}>
-            <Text style={styles.heading}>SupaCharge, The Free Ev Charging Station Finder</Text>
-            <Text style={styles.subheading}>Find your nearest charging station with SupaCharge</Text>
+            <Text style={styles.heading}>Supa Charge, The Free Ev Charging Station Finder</Text>
+            <Text style={styles.subheading}>Find your nearest charging station with Supa Charge</Text>
+            {/* login button */}
             <TouchableOpacity style={styles.buttons} onPress={onPress}>
                 <Text style={{color:Colors.White, fontFamily: 'outfit-bold', fontSize: 16, textAlign: 'center'}}>Login Using Google</Text>
             </TouchableOpacity>
@@ -50,6 +54,7 @@ export default function LoginScreen() {
   )
 }
 
+// styles for login screen
 const styles = StyleSheet.create({
     appLogo:{
         width: 260,
@@ -79,7 +84,7 @@ const styles = StyleSheet.create({
     buttons:{
         padding: 16,
         borderRadius: 80,
-        marginTop: 40,
+        marginTop: 150,
         backgroundColor: Colors.buttonImportant,
         justifyContent: 'center',
         alignItems: 'center',

@@ -40,6 +40,7 @@ const tokenCache = {
 }
 
 export default function App() {
+  // custom font
   const [loaded, error] = useFonts({
     'outfit': require('./assets/fonts/Outfit-Regular.ttf'),
     'outfit-light': require('./assets/fonts/Outfit-Light.ttf'),
@@ -47,6 +48,7 @@ export default function App() {
     'outfit-bold': require('./assets/fonts/Outfit-Bold.ttf'),
   });
 
+  // getting user location on start (popup will ask for premision) once granted it is set by setlocation
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
 
@@ -83,12 +85,17 @@ export default function App() {
   if (!loaded && !error) {
 
   }
+
+  // login screen is shown using this
   return (
+    // cleark provided api and token 
     <ClerkProvider 
     tokenCache={tokenCache}
     publishableKey={'pk_live_bWFzdGVyLWdvYXQtOTMuY2xlcmsuYWNjb3VudHMuZGV2JA'}
     >
       
+      {/* here from clerk we get signed in and out states and we display what we want to display in those two states s out is login scr s in and you get home screen */}
+      {/* NOTE: this is wrapped in user location so the location premision is rememebred and can be used either when signed in or signed out */}
       <UserLocationContext.Provider value = {{location, setLocation}}>
         <View style={styles.container}>
           <SignedIn>
@@ -97,9 +104,7 @@ export default function App() {
             </NavigationContainer>
           </SignedIn>
           <SignedOut>
-          <NavigationContainer>
-              <TabNavigation/>
-            </NavigationContainer>
+            <LoginScreen/>
           </SignedOut>
         </View>
       </UserLocationContext.Provider>

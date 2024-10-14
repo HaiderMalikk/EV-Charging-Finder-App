@@ -1,10 +1,11 @@
 import React, { useContext } from 'react';
-import MapView, {PROVIDER_DEFAULT, PROVIDER_GOOGLE} from 'react-native-maps';
+import MapView, {Marker, PROVIDER_DEFAULT, PROVIDER_GOOGLE} from 'react-native-maps';
 import * as Location from 'expo-location';
-import { StyleSheet, View } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 import MapStyle from '/Users/haidermalik/Documents/Code/Supa-Charger-App/app/Utils/MapStyle.json';
 import { UserLocationContext } from '../../Context/UserLocationContext';
 
+// map settings and user location note map is only returned if user location is avalible
 export default function AppMapView() {
   const {location, setLocation} = useContext(UserLocationContext);
   // only show map if location avalible
@@ -23,7 +24,19 @@ export default function AppMapView() {
         }}
 
 
-       />
+       >
+        {/* user location marker (is the car logo in assets ) */}
+        <Marker
+          coordinate={{
+            latitude: location?.latitude,
+            longitude: location?.longitude,
+          }}>
+            <Image source={require('/Users/haidermalik/Documents/Code/Supa-Charger-App/assets/images/car-logo.png')}
+            style={{width: 30, height: 30}}
+             />
+          </Marker>
+
+       </MapView>
     </View>
   );
 }

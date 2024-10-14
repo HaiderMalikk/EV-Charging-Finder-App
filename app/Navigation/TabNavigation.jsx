@@ -9,8 +9,10 @@ import AntDesign from '@expo/vector-icons/AntDesign';
 import React from 'react';
 import Colors from '../Utils/Colors';
 
+// bottom 3 options for navigation
 const Tab = createBottomTabNavigator();
 
+// all options on bottom tab
 export default function TabNavigation() {
   return (
     <Tab.Navigator screenOptions={{ headerShown: false }}>

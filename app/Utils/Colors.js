@@ -3,5 +3,6 @@ export default{
     Secondary: '#8f8c8c',
     White: '#FFFFFF',
     Black: '#000000',
-    buttonImportant: '#699a24'
+    buttonImportant: '#699a24',
+    TransparentBG: '#ffffff97'
 }
