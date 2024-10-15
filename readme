@@ -17,3 +17,5 @@ fix start up error caused by press handle on placelist might just wrap in if als
 cahnge icon for the current slected  place
 
 cahnge git hub proj name
+
+right now fav remove from fav list not in sync

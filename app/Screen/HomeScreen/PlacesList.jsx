@@ -20,9 +20,17 @@ export default function PlacesList({placeList}) {
 
   // the [] desines that when selected marker cahnges rerun the useeffect
   // if selected marker is present we will scrool to that index in the flat list
-  useEffect(()=>{
-    selectedMarker && scrollToIndex(selectedMarker)
-  },[selectedMarker])
+  useEffect(() => {
+    if (selectedMarker != null && selectedMarker >= 0 && selectedMarker < placeList.length) {
+      // Add a slight delay to ensure data is ready before scrolling
+      const timeout = setTimeout(() => {
+        scrollToIndex(selectedMarker);
+      }, 300); // 300ms delay can be adjusted based on your app's performance
+  
+      return () => clearTimeout(timeout); // Cleanup timeout if the component unmounts
+    }
+  }, [selectedMarker, placeList]);
+  
 
   // if we give index 3 then it will scroll to 3rd item in falt list using the flat list ref
   const scrollToIndex = (index) =>{
@@ -43,6 +51,7 @@ export default function PlacesList({placeList}) {
   },[])
 
   const GetFavCharger=async()=>{
+    setFavList([])
     const q = query(collection(db, "ev-fav-charger"), where("name", "==", "user"));
 
       const querySnapshot = await getDocs(q);
@@ -77,7 +86,7 @@ export default function PlacesList({placeList}) {
         renderItem={({item, index}) =>(
           <View key={index}>
             {/* here i set marked in item when item is marked as fav then here when its marked i recall get fav to get latest favlist */}
-            <PlaceItem place={item} isFav={isFav(item)} marked={()=>GetFavCharger}/>
+            <PlaceItem place={item} isFav={isFav(item)} marked={GetFavCharger}/>
           </View>
         ) }
       />

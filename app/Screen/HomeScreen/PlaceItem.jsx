@@ -1,4 +1,4 @@
-import { View, Text, Image, Dimensions, Pressable } from 'react-native'
+import { View, Text, Image, Dimensions, Pressable, Platform, Linking } from 'react-native'
 import Toast from 'react-native-root-toast'
 import React from 'react'
 import Colors from '../../Utils/Colors'
@@ -7,10 +7,10 @@ import { LinearGradient } from 'expo-linear-gradient'
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import { getFirestore} from "firebase/firestore";
-import App from '../../../App'
 import { app } from '../../Utils/FirebaseConfig'
 import { doc, setDoc } from "firebase/firestore";
 import { useUser } from '@clerk/clerk-expo'
+import { deleteDoc } from "firebase/firestore";
 
 
 // here we create the individual place iteam meanig the indivisual charger and its info the collection these are displayed in place list using flat list which is then displayed on home screen
@@ -18,9 +18,22 @@ import { useUser } from '@clerk/clerk-expo'
 // here i get multiple things like image, name, address of the place
 export default function PlaceItem({place, isFav, marked}) {
     const BASE_PLACE_PHOTO_URL = "https://places.googleapis.com/v1/"
+
+
+    // on press we will take the user to the location of the charger
+    const onLocationPress=()=>{
+        const url=Platform.select({
+            ios:"maps:"+place?.location.latitude+","+place?.location.longitude+"?q="+place?.formattedAddress,
+            andriod:"geo:"+place?.location.latitude+","+place?.location.longitude+"?q="+place?.formattedAddress,
+        });
+        Linking.openURL(url);
+    }
+
+
     // Initialize Cloud Firestore and get a reference to the service, then storing what we want on click here we set to fav, we will store the data as its place info
-    const {user}=useUser(); // t olog the user that saved to fav uses cleark user
+    const {user}=useUser(); // to log the user that saved to fav uses cleark user
     const db = getFirestore(app);
+    // setting and removing favorite from firebase the marked is to refresh the fav list once we favorite or unfav
     const SetFavorite=async()=>{
         await setDoc(doc(db, "ev-fav-charger", (place.id).toString()), {
         place:place, name:"user" }
@@ -28,8 +41,12 @@ export default function PlaceItem({place, isFav, marked}) {
     );
     marked()
     alert(place.displayName?.text + "Is Added To Favorites!")
+    }
 
-        
+    const RemoveFavorite=async(placeId)=>{
+        await deleteDoc(doc(db, "ev-fav-charger", placeId));
+        alert(place.displayName?.text+ "Is Removed From Favorites!")
+        marked()
     }
 
   return (
@@ -44,13 +61,23 @@ export default function PlaceItem({place, isFav, marked}) {
      style={{borderRadius: 10}}
     >
 
-        {/* Pressable Heart Icon */}
+    {/* If the place is a favorite, show a red heart and remove it from favorites on press */}
+    {isFav ? (
         <Pressable 
-        style={{ position: 'absolute', padding: 10, right: 0 }} 
-        onPress={() => SetFavorite()}  // on press add to fav
+            style={{ position: 'absolute', padding: 10, right: 0 }} 
+            onPress={() => RemoveFavorite(place.id)}  // on press, remove from favorites
         >
-            {isFav? <AntDesign name="heart" size={24} color="red" />:<AntDesign name="hearto" size={24} color="white" />}
+            <AntDesign name="heart" size={24} color="red" />
         </Pressable>
+        ) : (
+        /* If the place is not a favorite, show a white (outlined) heart and add it to favorites on press */
+        <Pressable 
+            style={{ position: 'absolute', padding: 10, right: 0 }} 
+            onPress={() => SetFavorite(place)}  // on press, add to favorites
+        >
+            <AntDesign name="hearto" size={24} color="white" />
+        </Pressable>
+    )}
 
 
       {/* image of the place  NOTE: uses place photo from google cloud places api, to get pic we base url and add the requered stuff to it, not that we must add uri at start as ist a url. it also uses the nameto get pic and we alredy have that, if pic DNE use deafault*/}
@@ -79,9 +106,11 @@ export default function PlaceItem({place, isFav, marked}) {
                     </Text>
                 </View>
                 
-                {/* Location arrow icon  and heart icon*/}
-                <FontAwesome6 name="location-arrow" size={24} color={Colors.buttonImportant}/>
-                
+                <Pressable onPress={()=>onLocationPress()}>
+                {/* Location arrow icon on press navigates to the ping*/}
+
+                    <FontAwesome6 name="location-arrow" size={24} color={Colors.buttonImportant}/>
+                </Pressable>
             </View>
         </View>
 
