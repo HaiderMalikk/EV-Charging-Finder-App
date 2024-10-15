@@ -15,8 +15,8 @@ const HomeScreen = () => {
   const { location, setLocation } = useContext(UserLocationContext);
   const [placeList, setPlaceList] = useState([]); // List of nearby places initially empty
   const [selectedMarker, setSelectedMarker] = useState([]); // Default value for selected marker is null
-  const [maxResultCount, setMaxResultCount] = useState(15); // Default max results
-  const [radius, setRadius] = useState(5000); // Default radius in meters
+  const [maxResultCount, setMaxResultCount] = useState(20); // Default max results
+  const [radius, setRadius] = useState(10000); // Default radius in meters
 
   // Getting nearby places, type of 'ev chargers' got then from Google Places types using Places API and using useEffect to call the function to get nearby places
   useEffect(() => {
