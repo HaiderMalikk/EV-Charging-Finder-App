@@ -16,16 +16,17 @@ import { useUser } from '@clerk/clerk-expo'
 // here we create the individual place iteam meanig the indivisual charger and its info the collection these are displayed in place list using flat list which is then displayed on home screen
 // passes place as a prop this is freom place list place = item in place list, make sure to pass in using '{}' as its a prop
 // here i get multiple things like image, name, address of the place
-export default function PlaceItem({place}) {
+export default function PlaceItem({place, isFav, marked}) {
     const BASE_PLACE_PHOTO_URL = "https://places.googleapis.com/v1/"
     // Initialize Cloud Firestore and get a reference to the service, then storing what we want on click here we set to fav, we will store the data as its place info
     const {user}=useUser(); // t olog the user that saved to fav uses cleark user
     const db = getFirestore(app);
     const SetFavorite=async()=>{
         await setDoc(doc(db, "ev-fav-charger", (place.id).toString()), {
-        place:place, name:user }
+        place:place, name:"user" }
 
     );
+    marked()
     alert(place.displayName?.text + "Is Added To Favorites!")
 
         
@@ -48,7 +49,7 @@ export default function PlaceItem({place}) {
         style={{ position: 'absolute', padding: 10, right: 0 }} 
         onPress={() => SetFavorite()}  // on press add to fav
         >
-            <AntDesign name="hearto" size={24} color="white" />
+            {isFav? <AntDesign name="heart" size={24} color="red" />:<AntDesign name="hearto" size={24} color="white" />}
         </Pressable>
 
 

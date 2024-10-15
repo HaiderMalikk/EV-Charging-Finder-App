@@ -1,7 +1,10 @@
 import { View, Text, FlatList, Dimensions } from 'react-native'
-import React, { useContext, useEffect, useRef } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import PlaceItem from './PlaceItem'
 import { SelectedMarkerContext } from '../../Context/SelectedMarkerContext';
+import { getFirestore } from 'firebase/firestore';
+import { app } from '../../Utils/FirebaseConfig';
+import { collection, query, where, getDocs } from "firebase/firestore";
 
 
 // this will use flat list to display the places storted in place list onto the home screen for user to see 
@@ -13,11 +16,12 @@ import { SelectedMarkerContext } from '../../Context/SelectedMarkerContext';
 export default function PlacesList({placeList}) {
   const flatListRef = useRef(null);
   const {selectedMarker, setSelectedMarker} = useContext(SelectedMarkerContext);
+  const [favList, setFavList] = useState([])
 
   // the [] desines that when selected marker cahnges rerun the useeffect
   // if selected marker is present we will scrool to that index in the flat list
   useEffect(()=>{
-    //selectedMarker && scrollToIndex(selectedMarker)
+    selectedMarker && scrollToIndex(selectedMarker)
   },[selectedMarker])
 
   // if we give index 3 then it will scroll to 3rd item in falt list using the flat list ref
@@ -31,6 +35,29 @@ export default function PlacesList({placeList}) {
     offset:Dimensions.get('window').width*index,
     index
   });
+
+  // getting data from fire base so we can check is user has a fav charger o we can fill its heart with ared one to show its alredy fav
+  const db = getFirestore(app);
+  useEffect(()=>{
+    GetFavCharger();
+  },[])
+
+  const GetFavCharger=async()=>{
+    const q = query(collection(db, "ev-fav-charger"), where("name", "==", "user"));
+
+      const querySnapshot = await getDocs(q);
+      querySnapshot.forEach((doc) => {
+        // doc.data() is never undefined for query doc snapshots
+        //console.log(doc.id, " => ", doc.data());
+        setFavList(favList=>[...favList,doc.data()]);
+      });
+  }
+
+  // checking if item is fav
+  const isFav=(place)=>{
+    const result = favList.find((item)=> item.place.id==place.id)
+    return result?true:false;
+  }
 
   
 
@@ -49,7 +76,8 @@ export default function PlacesList({placeList}) {
         showsHorizontalScrollIndicator={true}
         renderItem={({item, index}) =>(
           <View key={index}>
-            <PlaceItem place={item}/>
+            {/* here i set marked in item when item is marked as fav then here when its marked i recall get fav to get latest favlist */}
+            <PlaceItem place={item} isFav={isFav(item)} marked={()=>GetFavCharger}/>
           </View>
         ) }
       />
