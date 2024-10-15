@@ -1,0 +1,905 @@
+{
+    "places": [
+        {
+            "formattedAddress": "305 Bremner Blvd, Toronto, ON M5V 2T6, Canada",
+            "location": {
+                "latitude": 43.640094500000004,
+                "longitude": -79.3893958
+            },
+            "displayName": {
+                "text": "Rogers Centre Parking",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "Parking lot, 305 Bremner Blvd, Toronto",
+            "photos": [
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DOMXIo4EQysNq3hVb1AVVxY83I9freBfb5Y7k80-QnoM4GzHe486i8S5f563cSV0A8vx6NhFL5gD9LuUfFP2Ik5KhumEK5b-tqzENZCru4IF3fjEhEt7WYiFPYBBAkvHAkNzxQqe-3zzrY17ceRoPQaVywqVK-JwdNo",
+                    "widthPx": 4000,
+                    "heightPx": 3000,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Dima Chakra",
+                            "uri": "https://maps.google.com/maps/contrib/109922705452925427552",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXhpQ78xp5K4D8eHhavkvqvranT6t0ySgKFUAzOI7bNplZWYw6lsA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DPmvqaKiNaaXuhK0Bujf4shYOtbeYyAsMLx9rk1rF6gE_a1wJDsFTKlUty_J2bWrm0GPO_e-usjnJ0YR5xZHGmuIuWD49Y5deC5TupuYbBt0E7f_kWi_3-ql6E5tvuWsxKzKi1TSDYlLKOMTscu8vn9RXIV3_WYwgfT",
+                    "widthPx": 3072,
+                    "heightPx": 4080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Xtrmdream",
+                            "uri": "https://maps.google.com/maps/contrib/113538754158444251861",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU-W_-74pi18EbeGJu0UI_4lkgFLgiAufv0OATxZmeUKSnxyKMusA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DOwFM06G3m2TstW8nGzOIPGIc2LHv7HXF_JHYxIkFoaH-TkNiz0RSKFZCcHIeY0sUldpXZvgjRhOO8MgTyGV_Mz8THSCi2IPax24OSdA_MVMxrk07ceV5v2H6f8xBncFcZ0jA3nEjgNMM2bH1DnAUzwE9es1x1EpZ1q",
+                    "widthPx": 4000,
+                    "heightPx": 3000,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Eric Nickel",
+                            "uri": "https://maps.google.com/maps/contrib/101899145164397188268",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV15clwC7WoSCI10XIHeMbmlwoR3te7n5_oXfDsGbCJ01tXsZk8=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DOLigfzPquXUyKuGl_yCZBHhvnLL7lLI7H0rlCKzz6IAqbBhGmo1zd4LYvPqIi_wypZBAy-yrr7fJi8osTTklyoWHVp2cDP3EdfXThJ0G5_MYJV0EWd1E5bfVxtKKkVCsJ5Xnf33MX1LwtlozPhJ_OGb8S47EXYQiQ8",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Soban",
+                            "uri": "https://maps.google.com/maps/contrib/102313789071816944592",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQ1Z-EZiZMJgb6yIpfRCHPAkXlQPLdyhZSB361RW_zLBiRyrpEdA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DOfSiz2ItK8Xpd6pUwXgcnWqG6-igIlFBXQI9-Y-kLZAqcEMYNnYB5DEmLf8DhVDmUwqF31E1Fg4OWN59dsxds3VTYwhzY4MdUURwktlVKIHWFdHuvQCIb_qRG45rofkEVGvWqGqeqNIFfUZj_qoomhcfKoFQAC51I3",
+                    "widthPx": 1868,
+                    "heightPx": 2902,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Prasoon Srivastava",
+                            "uri": "https://maps.google.com/maps/contrib/116413519982160657145",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUgsEPoLtWzH2V1Vr-n0D_pcs6P_HmHVTXAOWeGKIZ6Bk4QTSPxLQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DNEHFHD1AriAj2QXHCsmfTftMKBfZpKyy4prZot5GsvfBNedRhgXEHwYm_FCQ1ASim1knk-m4yZAXjOgN1Wug7ornf2YAechJ_2hnB2xXf9j_1WHGAZtboBphZe_PAjqwA3oHCzG6frNJBprij5QYd0BWjdHump8Mw",
+                    "widthPx": 3072,
+                    "heightPx": 4080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Prashan Anantharajan",
+                            "uri": "https://maps.google.com/maps/contrib/107974789089557608869",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW5EDakD8mRRVzkgwq3GeG2RnSCkvyzrNUO4r1_Q65AjuW3JNiP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DN6DJaCB62ZCQVS2y2JjEfG1kWYFnEdTUXoo1JEjqvCXs9J545aLNNheb8-sLHcpxDr0lfLPzAYSi1sECsPKtR4ZCwNH_r8WzO7mX19cwJdF0HUId_ahVCFjifBBs4Xve31XJqCrYelUYOEDQGO7qwK2pNm7drQVlqv",
+                    "widthPx": 3072,
+                    "heightPx": 4080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Xtrmdream",
+                            "uri": "https://maps.google.com/maps/contrib/113538754158444251861",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU-W_-74pi18EbeGJu0UI_4lkgFLgiAufv0OATxZmeUKSnxyKMusA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DOQvVKPCWLnzQMIRH6PPwu__M_GabXLq_Asx2NCKpYbv4UK21JYmJ2JYpID9j1uAfkLCuA-rYq4kCuEUSvxNHcZJs4wfUvS0ZXUXa7ekez2pgOa3d63BD5DSwKd5xvDZUXyCI0NhptOTCqTXv-BocUKtI4ku48b2yhv",
+                    "widthPx": 3264,
+                    "heightPx": 2448,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Arquimedes Villatoro",
+                            "uri": "https://maps.google.com/maps/contrib/105925751974099359526",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVLa9KpEsNuFwP6Xt0fyL9sjwNdDcPIG3PuR-Wwr7Pq9tWZlvFwXQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DM-UK7gpk75Ub7BQDlls429B5qBhIPrg9LTPpHrACISqfrDbR2hmDI2n8w1QiY4BBsY65wjm_Hlb6J6NIt1IIRROjJKcEkjE0Bg16fxXK5cRs8dphhTrMgL8Z7bHXgv9Ro4jP6Z2WiJsw4tGd1w5kRGc0gxtXGFWzQ4",
+                    "widthPx": 3963,
+                    "heightPx": 2395,
+                    "authorAttributions": [
+                        {
+                            "displayName": "D J",
+                            "uri": "https://maps.google.com/maps/contrib/103006216468239034619",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUiFYybbUR7hxt3uAgOfnSUGjg2mRVApJkE08j9u6TVO7DWcdvD9A=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJVftfeNY0K4gR19AHI3d933s/photos/AdCG2DN3N3bEIrjX9OSL2ZACh-VDwkOHf08QPShzW2Xm9hpvTb5SmfdIbQfPeFZVESiJIQaVnMvCpLYZrptwNxI03LzEtmPZ9S8dEe93GZ1bUQreMCYqBDeEXElmxThg4XYvCEfP3yHYrVKAWsE5MliaYYTmaeHkP-4Y6LRU",
+                    "widthPx": 4080,
+                    "heightPx": 3072,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Peter Brian",
+                            "uri": "https://maps.google.com/maps/contrib/102205389158800715998",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUPwgYhGfqRlf8YhUppEDm6cL85xT_ACvScmiA7ysmNmRkaX2NywQ=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "formattedAddress": "222 Bremner Blvd, Toronto, ON M5V 3L9, Canada",
+            "location": {
+                "latitude": 43.6430611,
+                "longitude": -79.3850744
+            },
+            "displayName": {
+                "text": "Metro Toronto Convention Centre South Building Parking- Precise ParkLink",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "222 Bremner Blvd, Toronto",
+            "photos": [
+                {
+                    "name": "places/ChIJ3VNf-NQ0K4gRyuNR1IVik6g/photos/AdCG2DOFyjI0iPNii2PK2CFrXsJ-RXmZxNI9O21DTn1RdWrakeN_htBSIncz3jksLfOrgXMDARiYhsjfg8dWdZsGd4GDM6-G-La62KGtFB57m5-DTRLt67MHqDqyATm5_ZLXqvnJfXXkErIbpTBBog2hvQyW1cGl8LUEsVtH",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Anthony D'Souza",
+                            "uri": "https://maps.google.com/maps/contrib/113719985846612311674",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWR16jf9-U4ZzSiujWdRjFnVVF7M08vpm1Y_qJGIMl07b2eU5lJ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ3VNf-NQ0K4gRyuNR1IVik6g/photos/AdCG2DNeA2jBr3EeyhCI38zWfTWHEUivrHW5r3S45fV8f9_09fIS8dv6MepffOHy2s8lkKazyJ-Vw3c6-MvvzReQDLw7rg4J4k4ed0IuAVqy2dItgHeJBZ5YG-l4hsLNd9S9a0JOontOr_JLoFKlWpYrgz8DuzBO5d9ZmC6l",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Anthony D'Souza",
+                            "uri": "https://maps.google.com/maps/contrib/113719985846612311674",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWR16jf9-U4ZzSiujWdRjFnVVF7M08vpm1Y_qJGIMl07b2eU5lJ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ3VNf-NQ0K4gRyuNR1IVik6g/photos/AdCG2DOn_bqpirs1Gt022PqYCQl2c6mJRXkg1Bf_6v8uL-DAtLiVYgHdq819yhzAAizdNfkBOlsTTV9agAAMTowOHmb_tei_1W-IYI5lfZ94Z8n3QFB-VC4jscwKfokrYEp-hFemKpZfZL61mXxa5p-tUV2IxP4F4yTKUrn-",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Anthony D'Souza",
+                            "uri": "https://maps.google.com/maps/contrib/113719985846612311674",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWR16jf9-U4ZzSiujWdRjFnVVF7M08vpm1Y_qJGIMl07b2eU5lJ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ3VNf-NQ0K4gRyuNR1IVik6g/photos/AdCG2DNB2XziIFRzd70YuddMYqzNB5Lx36bpz-SfdJ2vfkas8Z038GxIkCeurou985JLEZAZwhAW7z5j1C2mp_ygGrS8mGuFSMJhX0KO2MVGDGPuD1st_MLyxGEXYruLV1IHku7CGYoPsRbr3FTXR434gu1cxhS44IOXtmvm",
+                    "widthPx": 2268,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Ila",
+                            "uri": "https://maps.google.com/maps/contrib/117188750490944278079",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW4SEhMX8JXRzPb1JVIm-vpZkugKYzi4bnKa8OIW1triHZA7YtM=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ3VNf-NQ0K4gRyuNR1IVik6g/photos/AdCG2DNibk8EW3YTGwdsddRkLXG8OB6OppK1GZFXrVGNZIXlMJMOWNurhE-X2luEmhrXhGK7TBCYZa_tjiYn0dmcV8p9CPLKo-d8d-wL7jvyBbCkJ3cJiCZlpgf6fDdEoOh8J-YRr3yK-f24Qqqz_7s3ldaxCEpQOwKoLdY0",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Anthony D'Souza",
+                            "uri": "https://maps.google.com/maps/contrib/113719985846612311674",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWR16jf9-U4ZzSiujWdRjFnVVF7M08vpm1Y_qJGIMl07b2eU5lJ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ3VNf-NQ0K4gRyuNR1IVik6g/photos/AdCG2DNYifGdceyiSq3EzdhisX-NPcRfAXHktaD7_WgGP2vGmwAH6R5QWQHE4zPnWftNTjNuzAtcErvbWPSHivVl94nmz_8m8p5wEN7av6P_mRQAgJFsrLI9z_7wXTeNc8-gz9_sZQeI4iXETQqcfMHCvw9JvjUP-dXdCKsr",
+                    "widthPx": 1670,
+                    "heightPx": 1073,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Ila",
+                            "uri": "https://maps.google.com/maps/contrib/117188750490944278079",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW4SEhMX8JXRzPb1JVIm-vpZkugKYzi4bnKa8OIW1triHZA7YtM=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ3VNf-NQ0K4gRyuNR1IVik6g/photos/AdCG2DMQZ6zY-9oNcHk7SIa2y9ZmBVBavrR9m_FycTKPjegiNi4ICfhf81VnlN0N028uwo8W21RYlOmj-Vb3xNUU9tNTfrugDpk9S3n7-ICzl0VSvM5HvPTOTVsKsBrg47D_DsESkh4CgpLxnK0CCPWk_QsreIxdw4_FtcvA",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Yevhen Matz",
+                            "uri": "https://maps.google.com/maps/contrib/109659420925139286977",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2uy6JhkbyqqLash6NRxN1vksFQYyKAioLimuFASEcIgn4Kek=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ3VNf-NQ0K4gRyuNR1IVik6g/photos/AdCG2DNoLl-uZOAExjmPRK7yvaTLOjBgXNECZ4yG0Xjv2dhXuIfx7qfVJMeOQ_t1f9e77xunZrDxvwrtbIdlc4TttaQ0nuJOw7hjoHSICqzWrLt5M5DUWA5VZ2m1h5g6MCOPCUlfuUBQA4xmtoBsOkscKjlTSsbHYkZb8qrz",
+                    "widthPx": 1700,
+                    "heightPx": 2200,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Metro Toronto Convention Centre South Building Parking- Precise ParkLink",
+                            "uri": "https://maps.google.com/maps/contrib/103575570296899661126",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWqEms5QxaajFbnCKplowPjIsn2lzjiMVp_6P7Ruxu2SRDgUtU=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "formattedAddress": "333 Bay St., Toronto, ON M5H 2R2, Canada",
+            "location": {
+                "latitude": 43.6503406,
+                "longitude": -79.38052069999999
+            },
+            "displayName": {
+                "text": "Parking Indigo Toronto - Bay Adelaide Centre",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "Bay Adelaide Centre, 333 Bay St., Toronto",
+            "photos": [
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DMRQGMntpeJkGOAJiRNBVybyDv9SJq2Jvpq3fEmYA6cy1V0-gvmbbLi0HLmA09NqDYox6AVyEwGS8uSLrhuu6vKP-y785dsHlIzjKYNc6-J9nbsGLiIWe2uS-VqcJNlOD8xZUwOeYSu0hNNJL8nK33cyf0fynjR1bA",
+                    "widthPx": 1632,
+                    "heightPx": 1224,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Parking Indigo Toronto - Bay Adelaide Centre",
+                            "uri": "https://maps.google.com/maps/contrib/114360379349557931160",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUaEatQ2gNQH2hLMwSFND35-uZ1LQmhzPYglQvwX766J4qgLA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DNUzcZavLEB84KuvtAOBxsDQ77uP3sGJ237NFixkT6P8IHmIq61SDqMy3xrEkV0_Aw4y4PJH9fOw6Mg64wZyYfyqkGiy_1MZVbzrXBGaudMp_Pt_NpxmA7NzLUZ4_tiYewty3IOIVabHFMQ9QBVhcAo__iqbvT-Ioc",
+                    "widthPx": 1885,
+                    "heightPx": 1060,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Parking Indigo Toronto - Bay Adelaide Centre",
+                            "uri": "https://maps.google.com/maps/contrib/114360379349557931160",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUaEatQ2gNQH2hLMwSFND35-uZ1LQmhzPYglQvwX766J4qgLA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DMEkn26P5QQk7OaZS_OcaFoz393Jb6kXsGZ5PlACpMetVOTECE7BtZ_iBxi97xSeKoAUwEYD85kKjTOkLyl6ksOMn1RFMctt9-uUbD3hX_k9Dvgb-TpsaEEijfHh_Ax121Ev4yAFJoXqftYTtCVoxIPIDAjuQ9JpKs",
+                    "widthPx": 1224,
+                    "heightPx": 1632,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Parking Indigo Toronto - Bay Adelaide Centre",
+                            "uri": "https://maps.google.com/maps/contrib/114360379349557931160",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUaEatQ2gNQH2hLMwSFND35-uZ1LQmhzPYglQvwX766J4qgLA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DOCDQQ7bmbIFVKRxeb78gKJd4P8LJVAuFtrlqug9cLT1FwFBkXCgalCouPrLJQHUnrjhzVwM3R6MoUQgnSHKUd5GEJQJ8oadJcb-kaKxhNf5_4lhUnPDaBdMkNqKNa7LZq_O4Mozv_JStiGaZ7w-L_zSmAiFDb4Ty0",
+                    "widthPx": 1060,
+                    "heightPx": 1885,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Parking Indigo Toronto - Bay Adelaide Centre",
+                            "uri": "https://maps.google.com/maps/contrib/114360379349557931160",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUaEatQ2gNQH2hLMwSFND35-uZ1LQmhzPYglQvwX766J4qgLA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DMMIXJcYjTowxPBXqTbiaSIK5Lhqb9gaNq5tb73Gz8pP5oiheh5YzVhGqskqmEshPtXV0O3ctFQrYnW0WTxfqYFN9aIAuMtNB-yOgspXiMlZ49clA4q4Cw65qQrMuR3j7G9f4ADqb9r-MuSTDaePlhpEb_wuFHu7YhT",
+                    "widthPx": 2448,
+                    "heightPx": 3264,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Omar Mohamed",
+                            "uri": "https://maps.google.com/maps/contrib/115677513478241143634",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWRp-f7CwmfL3PCyfKF9jjuL3nioHDApygYLAe5TQF-33rxCcjy=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DPIDc5NQ09RC7Im6Mo24GeMRPJyvudhoUdd2GsHJGQfNsQ004lwGMSa_iv0s1wFv-tB4zpq_SsRGjeUItl3yWy6G8jtDYIFEA_z5y6HPhGGQBFntc32PIk2iu5pe_JvW1PYDvnmUlSJMHXtJId9pX-WVV4Fs3Hexq4",
+                    "widthPx": 1632,
+                    "heightPx": 1224,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Parking Indigo Toronto - Bay Adelaide Centre",
+                            "uri": "https://maps.google.com/maps/contrib/114360379349557931160",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUaEatQ2gNQH2hLMwSFND35-uZ1LQmhzPYglQvwX766J4qgLA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DM82PXhzqu1GJxIo86lLgnp910eTGOfor5HmYJGohnioSc5OE0zMzAc4ICTVu2EFpXSxKIKjuelvrQL7wuj28Kf09hoyVQQXBsMyi4PDsNmh2JoivvqjOPJOAIHZUQb8NfkYPfNDBVW6vrd0eEhRwUoy7oJap_2EL4",
+                    "widthPx": 1632,
+                    "heightPx": 1224,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Parking Indigo Toronto - Bay Adelaide Centre",
+                            "uri": "https://maps.google.com/maps/contrib/114360379349557931160",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUaEatQ2gNQH2hLMwSFND35-uZ1LQmhzPYglQvwX766J4qgLA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DP5GL4jlPC_aeS7DgK1InIq5dyt5PWccfq_73DM_VBH3CJtQSObAmS6zTUGa-DnNdTf5UOe40VRy34QLOYdk_im7Lw2nTmUdApRFSDZXeYfY4dX2WcMBoKj5s2x4kM9tEI41rCY4E0woQNBScK52ljNvI94XB_4y0s",
+                    "widthPx": 1632,
+                    "heightPx": 1224,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Parking Indigo Toronto - Bay Adelaide Centre",
+                            "uri": "https://maps.google.com/maps/contrib/114360379349557931160",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUaEatQ2gNQH2hLMwSFND35-uZ1LQmhzPYglQvwX766J4qgLA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DNI-9PCwa92wgITS6gBU38IJkC7XWOfZnqpOmHLdSawpaSnAsgB0z8oiAVtK-oB0o4FbErQ-U3ArwbMdxBeoYvLOLa_WGPsTmI3DWudhfm_RDFZ9PAQi5TNPTc1ShOeauDZsov2suhytFbwpvSgE9DA6pnGPvkl3PIw",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Amir Astaneh",
+                            "uri": "https://maps.google.com/maps/contrib/103475114750277073695",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW3OM-qXNfO-F-GJFg7r0ChUSyy04tDJRuzQqE5bUOtYs2JEPOtrw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpW0qSEI1K4gRIfUiw8PD0wI/photos/AdCG2DMNAMdNam9tnmYKsAoeasG78saDb9Jyc_gn8XbaRG7FQ0eREV428BRk-jlKf5kyt3QQa_ArvqzIfWXLs6zfZYqDsWr5THQJ304aqkTAmPeG-R0tB2c4RP6VmExNuK4dtJeB87zAoVedz1ltjyr1HNJ_6NrvPTA71FRv",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Amir Astaneh",
+                            "uri": "https://maps.google.com/maps/contrib/103475114750277073695",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW3OM-qXNfO-F-GJFg7r0ChUSyy04tDJRuzQqE5bUOtYs2JEPOtrw=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "formattedAddress": "18 York St, Toronto, ON M5J 2T8, Canada",
+            "location": {
+                "latitude": 43.6431067,
+                "longitude": -79.382606
+            },
+            "displayName": {
+                "text": "Indigo",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "18 York St, Toronto",
+            "photos": [
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DPkzZf5q1fvei_fD-15wyOAlleATAcNS6VLDXMEfIesqK8UlzdaBTnYNhOpL1GUk8tB6WwdxZcVR4LFGY52YqO9uTRB0z7HTZs9-5e3hJCFucyWBQ6uuNvTXdx1JjrGdb8PylbKlTNMYb36c94ab9taNcjMODNndfI",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "L Sanchez",
+                            "uri": "https://maps.google.com/maps/contrib/110865729192556276612",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIyC97UDFaqbDWyv4tXmvatysq1gK9P6yN0ohqajt8u8CGf=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DPqab0Ve9hvZpGhlJ4z0VzzkqhTkoxAeyN1Cpii7J2hnOcOqEO-mEJyiNSrL7CRP8036RlTdlju1pB8pWBaPoQq1YTGG80P3-vax7AlvTh5zU7SHj08Qz-up09iv4vx5yt7o9jv2sK23wt2CB9UCpYlKJ1R_q7LwoE9",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Priyanka S",
+                            "uri": "https://maps.google.com/maps/contrib/100787479268167502983",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2LqDjA848VXEgZWEeDfIx57QK8-e4BHkzfOCqpWvt6tTchJ5e=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DPAsS7Ap6QLhhblBQ6anQk2rJaTr41KFjWSsQCgcz8Rnv46rtRA-sPeuhPbs4ZPCK0rs0cXYt_oSe9ZvJ-AfkwRoxDfOvTsXcc8IB36ERm2B_LbnBFN5hYi5n4k0YJrmqzxoZwH5tvlsRO-LCgYL-PukH9f4JV6lfc",
+                    "widthPx": 2587,
+                    "heightPx": 3541,
+                    "authorAttributions": [
+                        {
+                            "displayName": "L Sanchez",
+                            "uri": "https://maps.google.com/maps/contrib/110865729192556276612",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIyC97UDFaqbDWyv4tXmvatysq1gK9P6yN0ohqajt8u8CGf=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DPAT---MfMlaz-NmQY1V56lgk1oM4ToT3x90VYB3JqgdtfO6CMYXouUPhSWi3MmEtyp3IG9lypWk7KpidbvKxpPV7EuK2UCEPNZDmlsCki_m7jnOF2Bg5lj4naVvSvN3o_ulew9kSn2VBp3wODJM63FHTV-bqfZA1T4",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "jess",
+                            "uri": "https://maps.google.com/maps/contrib/104576806893802722016",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWh0Vs3V2WPupWUMM8ON0jePmXMZg4qjXyYTUuLChkaJYFAGiY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DPd79Dhhv3De6DBGKvP42NkjBFWv79aHoNQbQ_Si5qa7CAhjGMZk0F3wh9ZZo0KWhs830lwZ5WJ3tJ1gqX2yBzi96biIm6mghoFG8ZR7wmfZrNBrcRiF40YSivozMI2dEj6J_KAh0HVqSeiNyeJQUAh8c4V8j2sATw",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "L Sanchez",
+                            "uri": "https://maps.google.com/maps/contrib/110865729192556276612",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIyC97UDFaqbDWyv4tXmvatysq1gK9P6yN0ohqajt8u8CGf=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DN4pYN_3XwUDSFNPRITXENL43nNpKSlTHTHRN7wpl44jmbHRRvH7gpyL0ZQ_JrDs61rdrtlIOsTIrmZ-s86P_8zXqxxkOZEhl96IyTp9t-QxGN_3KXvAYo_BReC0kRJhOD2gB0Kgu1Fk20NHzWqyiOLQH4YUN3khrYR",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Priyanka S",
+                            "uri": "https://maps.google.com/maps/contrib/100787479268167502983",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2LqDjA848VXEgZWEeDfIx57QK8-e4BHkzfOCqpWvt6tTchJ5e=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DPEkqp7_nuYD3leh3-si_dnAolwsENg4pBzXz3ysRQpQbiauHgJAm8Xs4JMFI1Pcm0f8qB9HboddUZUJxja_WqVc8OdnteTZfxmj2jyVGACyfMF31MXeR5NZqvZux0JLhbljplVDLcYZSOTMjaMy_vGfJGddTiaZPOe",
+                    "widthPx": 1080,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Theola Li",
+                            "uri": "https://maps.google.com/maps/contrib/106918691149770684975",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJVduCt2Tmr8u8UCd2Lkrey921qHbEgVBECxeSG87_HceDKYg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DOl8iYS35cox37QDywDW2iB2ZXd_NDRqCXFrYFIfcUkKaAGRFv9QyimsnHEEu1xfw7yvPZThUIUgRtVFuu0v9C_nFcBhIQbxDbKXl1xlCOE-2JG4E3Vs-W2zhkmn8fwwzz6uFCFkLl5C2OMMy4qnwvG7qIXAMehWwjm",
+                    "widthPx": 2268,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Sunny Kwong",
+                            "uri": "https://maps.google.com/maps/contrib/111904458259262537456",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK5jFE1fLSY3G3OUrFO1vFXOPdEw3SETD6jHWSCk3VCN_6TLw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DOp1jgjVJziTXY9_CtI1WNbj0TDRqmRN-4DbTbWSRVH50ULMVb6ebEQrji_hjBuJfvgJ5OhiPGWyTeLHo0v_LAhPVTrdkxKpGdfMSo486JoV972alxgXJTINff_UEbzhCVMH0l0AvqFcGvltpIm9ZNXm0G2f34fOQHc",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Priyanka S",
+                            "uri": "https://maps.google.com/maps/contrib/100787479268167502983",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2LqDjA848VXEgZWEeDfIx57QK8-e4BHkzfOCqpWvt6tTchJ5e=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJfa1Rkwg1K4gRO3coXsE9usU/photos/AdCG2DODCk3NB11FNfr9dwiZzI13II-CKrpH7kKYYET65xS6mCh78nJhGEJy2_DbLHG9kPRqh1NKR8f5Uv-uMFuDms8OqypPkSdM6mT91c9ER4ASVvrKu_kClMWyhmKOPE8p9H1mzjj76wr_FNa6t84hwjzmh7NFEEzcTwDz",
+                    "widthPx": 400,
+                    "heightPx": 400,
+                    "authorAttributions": [
+                        {
+                            "displayName": "SP+ Parking",
+                            "uri": "https://maps.google.com/maps/contrib/101644551208838530317",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKLPyzfm2am277LXuNCIkeTl9-ToTGlJx4X85dptDnpj0yj5A=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "formattedAddress": "145 Eastern Ave, Toronto, ON M5A 1H7, Canada",
+            "location": {
+                "latitude": 43.6540082,
+                "longitude": -79.35749899999999
+            },
+            "displayName": {
+                "text": "Green Storage Toronto Downtown",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "145 Eastern Ave, Toronto",
+            "photos": [
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DPesQgr7PG2tuwd1rieR7XOFwptWCU4nkmI33g_1Co0xdy7rnlVs51mUnV7esRNsj1bN8ENDL82sWmhDtq_nBJUnzmNbrS7nriVd5zVHpYH5NfEIzNLJiovP4sr2o9wUrGzyFwrEuymDyu3OhqFk-DVEwvWgonJYggA",
+                    "widthPx": 4800,
+                    "heightPx": 2813,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Green Storage Toronto Downtown",
+                            "uri": "https://maps.google.com/maps/contrib/111350631535025648667",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQYmBjM36BOouvIL1Vxi0VqwGh-0pQ0lHRfigK0f5lFZt3qVk=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DMn_YVGQ538CKNKycdfQE6LpD9slX--RbXF5I50Garbcjf6Q2a0H_5gKPzDUBoUiiTpdCPm5mzDlnpPEl31KSKVXL67AH-tUfW6sOdzCoxxigzci-CqKvKOURVTN7lpXjLaXQ0rSX0Uoy4CuxWVXDad0uWFAsvbEtoq",
+                    "widthPx": 3072,
+                    "heightPx": 4080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "OfficialG Tui",
+                            "uri": "https://maps.google.com/maps/contrib/105320414435507617357",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX15SZNmTWbqswQmHYC3UKu2P_OH4-9xtUzt8P2gyYPvcibeKVTgg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DOEmDJsylz-IgOG5whGxAKD7qYg_QI8UnikiL8KMouxk1tv1zlbNcGlpb8IzhxvmMKZFd3_m-vJTuYngDRWz_sIE5K23806eqwyd3lt3LczCSNqR1dk0sDDsBaZhbR8qvyPUhTZPkbd7x8rTTkjk4NfTfdR83RQr1Tr",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Fadi Semaan",
+                            "uri": "https://maps.google.com/maps/contrib/104700552310198813658",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXDFa5LTdFDElag_FdgkDLaS9V843DRL0xbdVHDUYYHYmBq8ju1=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DOycT-Qn4EXu9dxgsZpK4fqpYrGQheu0-Jj32tAYv8LD0anMl--oWccCHvPChEvnCcPXjXawaBk1wuPwELGzcfPoXrCGZcMd5hlmm5urtv8z47i3HXV_1NPrfgdxDWeI9G5Lf6gR5CX0dh_mpCnbwtuZSTud_Ln170E",
+                    "widthPx": 2268,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Fadi Semaan",
+                            "uri": "https://maps.google.com/maps/contrib/104700552310198813658",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXDFa5LTdFDElag_FdgkDLaS9V843DRL0xbdVHDUYYHYmBq8ju1=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DMpjueNGcc8yb16O1eFmVUYNF8U0RvKS_HT_GDVil371Ga2k1brXTuszfOrEft4bxNLtnAm41Mw6fl9_U_tO5Ze32TLXF36GwmRLSi7IG58owo6oz7JOHUaEY11pJ5dM6ril4zG93uPVVpG1_dl25oOMsKRzk1DiElO",
+                    "widthPx": 4800,
+                    "heightPx": 3147,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Green Storage Toronto Downtown",
+                            "uri": "https://maps.google.com/maps/contrib/111350631535025648667",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQYmBjM36BOouvIL1Vxi0VqwGh-0pQ0lHRfigK0f5lFZt3qVk=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DM5KxFDfll14da9xIIyEMQp77KBcJ5PWi3RSDl7mXr_WnvJkxO_tG6AyFuc-vD3JhSB2u25bxdYSMvpXNZEzpU8DgefMnzh4nW6xRyQ361SDKIZDySxYIMCuYU5T_Cw7gJHh1haQWfze_iVzeQ4JXU1_SwJFO0GW1r3",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Fadi Semaan",
+                            "uri": "https://maps.google.com/maps/contrib/104700552310198813658",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXDFa5LTdFDElag_FdgkDLaS9V843DRL0xbdVHDUYYHYmBq8ju1=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DPpyw7tWp86CUCh5uHkMT9qDOhwaHOykmhi9xbGnGvP0B-O8x-7rCAtbXwg86eM9bQ4q6CXf71cW3uVD26saPaMXYlXLJ0plLpW1_o8hPZv-gocdGvoKpIJyehxoFQQWNBk76rMGjnAahmQbLQGvnnf3beMPugEq_pY",
+                    "widthPx": 4800,
+                    "heightPx": 2700,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Harry Bradley",
+                            "uri": "https://maps.google.com/maps/contrib/107174292497751199640",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIC2ATPATMFEumiaRyx1FIWUQjWs4Gt1206zOdbPunxphH8jGoP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DPNi_58gc1_lLB5q7gpWZpb5k-O8YB3U_zRdbkLgVaxkjU_teArbBtTlYNuRE2Av7V0IkzetKtJKdPDqVEtYQ7Yf2W4-0IITT5UjvNR313xxO1aQ_ikXv_IQrYF_iP7klzzim5aXpixC6ZPpOICuLc3ySrmiXwzyO2L",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Fadi Semaan",
+                            "uri": "https://maps.google.com/maps/contrib/104700552310198813658",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXDFa5LTdFDElag_FdgkDLaS9V843DRL0xbdVHDUYYHYmBq8ju1=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DNvGcN0mtWDCI1_wFNrYQEwYsQs2itTfBIg_b5U4WVpkbeT0xgTrQ8XrCwJKpxvvUK3aR83ZMMOKwCdMAv5ctNCnx9TJ-mOdj8uOVeBRTXUWUaID3k4f5j8zAnrgX97WREOkbyAxKt_Xgd_EsCtEKccfUfLNpfRg8iu",
+                    "widthPx": 4800,
+                    "heightPx": 3204,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Green Storage Toronto Downtown",
+                            "uri": "https://maps.google.com/maps/contrib/111350631535025648667",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQYmBjM36BOouvIL1Vxi0VqwGh-0pQ0lHRfigK0f5lFZt3qVk=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZYSTeBXL1IkRLikzC7AtkHo/photos/AdCG2DO5GFjLI4mAMVViWQVIWGYpgYxFLKr3p9uDhW8THaHOwVBKeB6CVUY_5WmYovVuxFujpWn1aZsANElN_bg4QtDyU0U_Ii9iJMP2LldgW5W1_ftXJOvdVZVhgGPdorT76msVj-9o5pk3vUQgOhWXJxxfyBTP2Lb7ACkh",
+                    "widthPx": 4800,
+                    "heightPx": 3204,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Green Storage Toronto Downtown",
+                            "uri": "https://maps.google.com/maps/contrib/111350631535025648667",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQYmBjM36BOouvIL1Vxi0VqwGh-0pQ0lHRfigK0f5lFZt3qVk=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "formattedAddress": "525 University Ave, Toronto, ON M5G 2L3, Canada",
+            "location": {
+                "latitude": 43.6562671,
+                "longitude": -79.3881771
+            },
+            "displayName": {
+                "text": "SP+ Parking",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "525 University Ave, Toronto",
+            "photos": [
+                {
+                    "name": "places/ChIJbWrCdDc1K4gRmBQaft0612E/photos/AdCG2DMnAj-6KCA7l5eyxrWJCEbU0b1WcHIAc-yH2BvzhXJYSH3EM_ZhOMhZ4iuzGezDEg4Q4aC4BDk4VQIyt9NCmUemhOsiqMQWyrcf12WRlJcf6nbpvp-lWJNEfHiyVLkAGXeXUw3Bf303SOA_clZH99OTbPJc1S8wc74n",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Dar Deguzman",
+                            "uri": "https://maps.google.com/maps/contrib/100016690878509666663",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU9hqSdWLUDc2LRaIp3LnmsK55eln7REtgStCCf3HVvFtU-G5uB=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJbWrCdDc1K4gRmBQaft0612E/photos/AdCG2DORPuC2Oi_rbyjpxaqwwTBDp-_24et9p7Pe7mqrHR0RT4AL4Mr6efjxuWveLUJnOcF6914y0kJw2sRa51A2tRrJcsW6C_1jVAVRdkmikqOX4bYipR9UimY5AlxY1gZ_eBRq-elHmkEi88BwlvwXj1Oc-Sizjx-74IKZ",
+                    "widthPx": 400,
+                    "heightPx": 400,
+                    "authorAttributions": [
+                        {
+                            "displayName": "SP+ Parking",
+                            "uri": "https://maps.google.com/maps/contrib/117686450549379313922",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJg9JsI8X_sF9MgbQFt9GuEC_8nbocznqvAD3xReOBz0raoaw=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "formattedAddress": "Toronto, ON M4Y 2R4, Canada",
+            "location": {
+                "latitude": 43.6683668,
+                "longitude": -79.3881277
+            },
+            "displayName": {
+                "text": "Manulife Centre Parking, EV Charging, J1772 x3, Pay Parking (Charles St, P1, By Exit)",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "Toronto",
+            "photos": [
+                {
+                    "name": "places/ChIJlRsYaqk1K4gRgqJ4mp3P9Dc/photos/AdCG2DObZ92kQ0E0HlLKgiqoHCmyBmzavYFYOA-lgUjQYECDLc0Ed2H_CVasBWWOxMJgUV4p8nVxhj8WS32mvwQVThFcDCAdnhVu_b7G_y5c6wJvQj6v0qvS8HTCJzhCPa0TeHGdwEROUKuSt-hOfxDfeZ_OR5Qrxzfhpdxe",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Jimmy Ngai",
+                            "uri": "https://maps.google.com/maps/contrib/107430475228958757421",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW8PJ65FZrAl9MF0YyM6KEvdBHN6aTXOzgU807OtbYU7069AV_SyA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJlRsYaqk1K4gRgqJ4mp3P9Dc/photos/AdCG2DP_XXDxskgs85llOml7anGSnuqvU-xApfgPWDAZhLc7_mDLvR7EliZyu-GqfewN7OYDNjdOH--alixo5u0M6yakTc2f5UX80CfR_XCGpVU8b8vAQ4CWURSXzGkE_2Ez3yxo-VQWD_cymTcxUtgEjw5ZveDOPXtvYJir",
+                    "widthPx": 1920,
+                    "heightPx": 1080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Peter Leung (Pete)",
+                            "uri": "https://maps.google.com/maps/contrib/113513084168659615487",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJFFLRrgvUsmHiXl-9lyxcuMZ_WEaZlZs0XcCGYunI1sfGBFQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJlRsYaqk1K4gRgqJ4mp3P9Dc/photos/AdCG2DNza_p8rXfbrIuG4fbAx4sebmOeVuxi3HmIV72caWc1A4KxZIvHe-ykAc0F_w4z38IbmxVJs1Ozh5gQYf1DMvJ7P956yE9tLCwGi0j_FN67TShpL6mXH0hrb6ugB_ojLl8XwOQF0xvyt1zUrKlHtE_7sBo2k_0GEvj5",
+                    "widthPx": 1080,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Peter Leung (Pete)",
+                            "uri": "https://maps.google.com/maps/contrib/113513084168659615487",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJFFLRrgvUsmHiXl-9lyxcuMZ_WEaZlZs0XcCGYunI1sfGBFQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJlRsYaqk1K4gRgqJ4mp3P9Dc/photos/AdCG2DOO6LTrfFmAVRbJSEVS58GoIt2tHy-sIygmbomwx63E8PhOUjZ393DwiGYW5tr91qs2VIcxBs85xyoBBkMUeQYmkuIGwEB9GFaa7wH1zTXVdpOv2aHFXtWg4uWyjKmj3NwOQSRc_5mjPVNWB2f8pMSlZbcOjn54vKQh",
+                    "widthPx": 1080,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Peter Leung (Pete)",
+                            "uri": "https://maps.google.com/maps/contrib/113513084168659615487",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJFFLRrgvUsmHiXl-9lyxcuMZ_WEaZlZs0XcCGYunI1sfGBFQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJlRsYaqk1K4gRgqJ4mp3P9Dc/photos/AdCG2DOp0MBMBgVV-71oDYivEkDq8BSGO3exOP2XA50txcibzQDdL2qtk8H_YepinJyDOoE2Fw0V0Gyutp2nauLAz40kVPSSM36kwRVeYCHIw3S8fh_ptX7e69MFLSdFtgrAirOjRFGynJjb3TfNwuhdYIjZ960jeV-i0Exq",
+                    "widthPx": 1656,
+                    "heightPx": 1240,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Allyson Caio",
+                            "uri": "https://maps.google.com/maps/contrib/116048517582944529500",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWgHbNhGXMwXvpoHQ-p6jw2Y47NRoqAX9KtY-FkUI59lOqyohGL6A=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJlRsYaqk1K4gRgqJ4mp3P9Dc/photos/AdCG2DO4QksEEeTOrp5vO_144XdaYNxGGyR8gj9Jd9pHQ6AdOZhDMS6dFVX93PY73D-52EHkhZXrQVpKmaZud7E3tN8bC5750K9DHNxWsJAusmihCP1fI9fX1jV9j6bgWdsLsVRgUZ7kX_cdeloyFXGAezmAh1m68KSnLPLG",
+                    "widthPx": 1920,
+                    "heightPx": 1080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Peter Leung (Pete)",
+                            "uri": "https://maps.google.com/maps/contrib/113513084168659615487",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJFFLRrgvUsmHiXl-9lyxcuMZ_WEaZlZs0XcCGYunI1sfGBFQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJlRsYaqk1K4gRgqJ4mp3P9Dc/photos/AdCG2DMinWRs0VDjVwNODfBLJifvIBAla-LGBD_npPYTMuRftELym46Yq0B4gO4ozTw1GqiRlUVCI-FhaUpFsCxUHWabbrSZ57DDPTw8hK9E1y43EhvSc8__OpL7o21ae9HWlmfU3-wrnEHYiDRVzuhiqXd79grrGEdvuzhE",
+                    "widthPx": 1080,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Peter Leung (Pete)",
+                            "uri": "https://maps.google.com/maps/contrib/113513084168659615487",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJFFLRrgvUsmHiXl-9lyxcuMZ_WEaZlZs0XcCGYunI1sfGBFQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJlRsYaqk1K4gRgqJ4mp3P9Dc/photos/AdCG2DNWTGGdqBnRsnJePQRBrxkSLiz_tAG5W1osKs0WA0OX_Xre0Rs8pDxj_iVAYcWpyNXLtxktZIAV-RgIVRixmlxqAj_RAmYHlNqMtH7tEUudZXL0q5boTPg8DPcmx3-_uw4oL8NjIdnTNtP1WP-qaGmwoIg3nBgStZvt",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Jimmy Ngai",
+                            "uri": "https://maps.google.com/maps/contrib/107430475228958757421",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW8PJ65FZrAl9MF0YyM6KEvdBHN6aTXOzgU807OtbYU7069AV_SyA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJlRsYaqk1K4gRgqJ4mp3P9Dc/photos/AdCG2DMDv1O671QLBsk31gv484XrMQh6kPNZHEiNYmi6oMLF8SS8a9RkrnD4F5_9QrEsfShoVK04aI5S4hXkMU7mBKlrfepVY8I29hfwCh4pwlVczHykmLZ4EpB_u4euCcajL7rH8nCx_dw4wQujs34Qj4JVHZOS5jXlYyQZ",
+                    "widthPx": 2252,
+                    "heightPx": 4000,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Kenneth Leung",
+                            "uri": "https://maps.google.com/maps/contrib/106558677057484613788",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKGAfi5eRMKQ40GrBLPQiSSyQiR4zmILcFeIzl6DHF4P28CFsnn=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "formattedAddress": "CAN CA, 661 University Ave, Toronto, ON M5G 1M1, Canada",
+            "location": {
+                "latitude": 43.659500900000005,
+                "longitude": -79.3896697
+            },
+            "displayName": {
+                "text": "EVC Canada Charging Station",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "CAN CA, 661 University Ave, Toronto",
+            "evChargeOptions": {
+                "connectorCount": 2,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CHADEMO",
+                        "maxChargeRateKw": 50,
+                        "count": 1,
+                        "availableCount": 1,
+                        "outOfServiceCount": 0,
+                        "availabilityLastUpdateTime": "2024-10-14T20:45:00Z"
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CCS_COMBO_1",
+                        "maxChargeRateKw": 50,
+                        "count": 1,
+                        "availableCount": 1,
+                        "outOfServiceCount": 0,
+                        "availabilityLastUpdateTime": "2024-10-14T20:45:00Z"
+                    }
+                ]
+            }
+        },
+        {
+            "formattedAddress": "8 Richardson St, Toronto, ON M5A 4J9, Canada",
+            "location": {
+                "latitude": 43.6447134,
+                "longitude": -79.3683111
+            },
+            "displayName": {
+                "text": "8 Richardsons Street Parking- Precise ParkLink",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "8 Richardson St, Toronto",
+            "photos": [
+                {
+                    "name": "places/ChIJC50NJArL1IkRYm6P3aYdkDQ/photos/AdCG2DOE6ix_WsNX4hYZzOar4du-wdtMPfX-evqF23Zwx3QdBMPsWTBwQz-f7I7GlLNNfQKvI_cdEIgpUAQ3Q05sDEKnAAIGRHpsRprG1UDJKBk4rH4t4qYg_sZIowCm9xugVaVnND90kVH4REBS4X9v0O3jnWGsrP-GmFZD",
+                    "widthPx": 940,
+                    "heightPx": 1280,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Seyed Hossein Mortazavi",
+                            "uri": "https://maps.google.com/maps/contrib/107601571216957275869",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU-1AJ2Hcj6eFj95V7jE-pNqb64xxqzZd0fpw_B54RkTkdeXslC=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJC50NJArL1IkRYm6P3aYdkDQ/photos/AdCG2DMqdL_ZC_ZYZlI-mn-glm6XI7y_-zrDw_Z6mLe33ptvGarqlFzRZ2vzdXzIk4j4r7ctnpZusV_z5qN6wNlGta4WBUBuzy0_SN08ymDngDThxT_F78VD_ahI-6R2l9Dhh6YTg8M0xOC_KliE6bI4A-CYg_AQZA307L99",
+                    "widthPx": 1696,
+                    "heightPx": 2916,
+                    "authorAttributions": [
+                        {
+                            "displayName": "H N",
+                            "uri": "https://maps.google.com/maps/contrib/101965712220420346751",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVFeoHw6knTVvcQATPzwGHpZ_G66pWssj3gHNDMKtYno4xpGTcC=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJC50NJArL1IkRYm6P3aYdkDQ/photos/AdCG2DNHnQf2Ze35T8c4jJq8ZOdOehrCYr1g95hyFrdOE05FlkKcQaawzGJ069hbS9qthmhnBM7opK1C1z-Tcmb6o6l6dpaMIjJAtKYjFIazSohcI2cYwWEg1_qtjam4V5Ke25dzcdibBkrFo7z7GEfFVkeAJg1Offr4kem8",
+                    "widthPx": 1700,
+                    "heightPx": 2200,
+                    "authorAttributions": [
+                        {
+                            "displayName": "8 Richardsons Street Parking- Precise ParkLink",
+                            "uri": "https://maps.google.com/maps/contrib/100980945322502607291",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXTga-G-yEAmik88ZmgbGbaan6V-_ImJDf7OGp_pPD0xnoMS2A=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "formattedAddress": "288 Church St, Toronto, ON M5B 1Z5, Canada",
+            "location": {
+                "latitude": 43.657393899999995,
+                "longitude": -79.37757289999999
+            },
+            "displayName": {
+                "text": "TMU Daphne Cockwell Complex DCC Parking- Precise ParkLink",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "Parking lot, 288 Church St, Toronto"
+        }
+    ]
+}

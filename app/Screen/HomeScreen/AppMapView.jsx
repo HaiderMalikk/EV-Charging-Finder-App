@@ -1,13 +1,15 @@
-import React, { useContext } from 'react';
+import React, { useContext, useRef } from 'react';
 import MapView, {Marker, PROVIDER_DEFAULT, PROVIDER_GOOGLE} from 'react-native-maps';
 import * as Location from 'expo-location';
 import { Image, StyleSheet, View } from 'react-native';
 import MapStyle from '/Users/haidermalik/Documents/Code/Supa-Charger-App/app/Utils/MapStyle.json';
 import { UserLocationContext } from '../../Context/UserLocationContext';
+import ChargerMarker from './ChargerMarker';
 
 // map settings and user location note map is only returned if user location is avalible
-export default function AppMapView() {
+export default function AppMapView({placeList}) {
   const {location, setLocation} = useContext(UserLocationContext);
+  
   // only show map if location avalible
   return location?.latitude&&(
     <View>
@@ -25,7 +27,7 @@ export default function AppMapView() {
 
 
        >
-        {/* user location marker (is the car logo in assets ) */}
+        {/* user location marker (is the car logo in assets ) only display marker if user location is avalible */}
         <Marker
           coordinate={{
             latitude: location?.latitude,
@@ -36,6 +38,11 @@ export default function AppMapView() {
              />
           </Marker>
 
+          {/* using map to itirate over place list and display each place, we also pass index from here to marker */}
+            {placeList&&placeList.map((item, index) => (
+              <ChargerMarker key={index} index={index} place = {item}/>
+              
+            ))} 
        </MapView>
     </View>
   );

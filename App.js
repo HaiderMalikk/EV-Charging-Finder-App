@@ -104,7 +104,9 @@ export default function App() {
             </NavigationContainer>
           </SignedIn>
           <SignedOut>
-            <LoginScreen/>
+          <NavigationContainer>
+              <TabNavigation/>
+            </NavigationContainer>
           </SignedOut>
         </View>
       </UserLocationContext.Provider>

@@ -3,3 +3,17 @@ it uses google maps and apis to get evs from google.
 
 
 TODO: remove lesser place api from google
+
+after done delete api key use bookmarks to replace with promt 
+
+add max radius and result slider in filter or profile
+
+deal with icon and deafult icons
+
+in place iteam fix margin to let full text on screen optional
+
+fix start up error caused by press handle on placelist might just wrap in if also del clerk keep intro src
+
+cahnge icon for the current slected  place
+
+cahnge git hub proj name
