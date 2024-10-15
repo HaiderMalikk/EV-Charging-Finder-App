@@ -32,7 +32,7 @@ const FavoriteScreen = () => {
 
 
   return (
-    <View style ={{marginTop: 10}}>
+    <View style ={{flex: 1,marginTop: 10}}>
       {/* loading icon shows loading when feching data */}
       <Text style={{color: Colors.buttonImportant, fontFamily:'outfit-bold', padding: 10, fontSize: 30}}>My Favorites</Text>
 
@@ -50,9 +50,6 @@ const FavoriteScreen = () => {
         <PlaceItem  place={item.place} isFav={true} marked={GetFavCharger} />
       )}
       />
-      <View style={{marginBottom: 800}}>
-
-      </View>
 
     </View>
   );
