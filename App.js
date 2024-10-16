@@ -91,7 +91,7 @@ export default function App() {
     // cleark provided api and token 
     <ClerkProvider 
     tokenCache={tokenCache}
-    publishableKey={'pk_live_bWFzdGVyLWdvYXQtOTMuY2xlcmsuYWNjb3VudHMuZGV2JA'}
+    publishableKey={''}
     >
       
       {/* here from clerk we get signed in and out states and we display what we want to display in those two states s out is login scr s in and you get home screen */}

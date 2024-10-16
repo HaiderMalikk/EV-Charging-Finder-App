@@ -29,7 +29,7 @@ export default function SearchBar({searchedLocation}) {
         searchedLocation(details?.geometry?.location); // return searched location as cords 
       }}
       query={{
-        key: 'AIzaSyDeJ-M5Qe1sVgY_uBiWQG-qSqmwTfd77Ps',
+        key: '',
         language: 'en',
       }}
     />

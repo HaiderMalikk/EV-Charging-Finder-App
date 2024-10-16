@@ -7,13 +7,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDiZPvUDCw8mk-7cX09Omzl-ByCsXWRSVg",
-  authDomain: "supa-charger.firebaseapp.com",
-  projectId: "supa-charger",
-  storageBucket: "supa-charger.appspot.com",
-  messagingSenderId: "1020157423336",
-  appId: "1:1020157423336:web:deb3d1281c7e3be21fe35d",
-  measurementId: "G-EZX88PZWYB"
+  apiKey: "",
+  authDomain: "good-v2.firebaseapp.com",
+  projectId: "good-v2",
+  storageBucket: "good-v2.appspot.com",
+  messagingSenderId: "932685752441",
+  appId: "1:932685752441:web:38cf930a927482e7678ca8",
+  measurementId: "G-1T4SPG35CE"
 };
 
 

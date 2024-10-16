@@ -1,6 +1,6 @@
 import axios from "axios"
 const GooglePlacesRequestURL = 'https://places.googleapis.com/v1/places:searchNearby'
-const API_KEY = 'AIzaSyDeJ-M5Qe1sVgY_uBiWQG-qSqmwTfd77Ps'
+const API_KEY = ''
 
 // msking calls to nearby places using google places api using axios library 
 // using google feild mask to filter places i need
